@@ -1,27 +1,24 @@
-title = "Osprey Example Site"
-baseURL = "https://tomanistor.com"
-tags = ["portfolio", "web design", "blog"]
+title = "Upstate Distilling Company"
+baseURL = "https://upstatedistilling.com"
+tags = ["distillery", "bourbon", "blog",]
 languageCode = "en-US"
 config = "config.toml"
-theme = "osprey"
+theme = "upstate-distilling"
 canonifyURLS = true
 googleAnalytics = ""
 disqusShortname = "tomanistor"
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
 [Params]
-    tagline = "Osprey Example Site"
-    author = "Toma Nistor"
-    description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
-    logoBig = "/images/osprey-logo.png"
-    logoSmall = "/images/osprey-logo.png"
+    author = "Jewell.Solutions"
+    description = "Located in history Saratoga Springs, NY, Upstate Distilling COmpany strives to produce the finest hand-crafted small batch spirits from locally sourced incredients."
+    logoBig = "/images/logo-lt.svg"
+    logoSmall = "/images/logo-dk.svg"
     favicon = "favicon.ico"
     opengraphImage = "/images/osprey.png"
-    twitter = "TomaNistor"
-    linkedin = "tomanistor"
-    github = "tomanistor"
-    facebook = ""
-    email = ""
+    twitter = "upstatedistilling"
+    facebook = "upstatedistilling"
+    email = "info@upstatedistilling.com"
     googleTagManger = ""
     highlightJS = true
     copyright = true
@@ -32,16 +29,16 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
     ajaxFormspree = true
 
 [[menu.main]]
-    name = "About"
-    url  = "/#about"
+    name = "Spirits"
+    url  = "/#spirits"
     weight = 1
 [[menu.main]]
-    name = "Work"
-    url  = "/#work"
+    name = "About"
+    url  = "/#about"
     weight = 2
 [[menu.main]]
-    name = "Blog"
-    url  = "/#blog"
+    name = "Updates"
+    url  = "/#updates"
     weight = 3
 [[menu.main]]
     name = "Contact"
